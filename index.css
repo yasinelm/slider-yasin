@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #090909;
+}
+.a{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1px;
+	
+}
+.b{
+	width: 50%;
+	min-width: 200px;
+	height: 50vh;
+	
+
+}
+#slider{
+	width: 100%;
+	height: 100%;
+
+}
+.i, .d{
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.i{
+	
+	left: 270px;
+
+}
+.d{
+
+	right: 270px;
+	
+}
+
